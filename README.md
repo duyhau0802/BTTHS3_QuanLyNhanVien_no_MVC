@@ -5,4 +5,6 @@ sử dụng : html, css at front-end
           xampp for server
           mysql in xampp for database
 function : 
-  + quản lý nhân viên phòng ban
+  + quản lý nhân viên phòng ban : CRUD
+  + tìm kiếm theo nhân viên, theo phòng ban
+  + phân quyền truy cập theo tài khoản login: chỉ có quyền thêm , sửa, xóa nếu bạn là admin
