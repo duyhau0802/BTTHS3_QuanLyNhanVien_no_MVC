@@ -1,0 +1,104 @@
+/* T1 css */
+.topnav{
+    clear: right;
+}
+.topnav a {
+  float: left ;
+  text-align: center;
+  padding: 15px 10px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.topnav a:hover {
+  background-color: black;
+  color: white;
+}
+.search-button {
+  cursor:pointer;
+  background: transparent;
+  border: none;
+  margin-left: -40px;
+}
+.search-button img {
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
+  margin-bottom: -5px;
+}
+.search-field {
+  width: 300px; 
+  padding: 7px;
+  border: 1px solid black;
+  border-radius: 100px;
+  clear: left;
+}
+#logobk {
+  cursor: pointer;
+  padding-top: 5px;
+  width: auto;
+  height:63px;
+  float: left;
+}
+/*  */
+/* T3 */
+#tieude {
+  background-color: gray;
+  font-size: medium;
+  clear: left;
+  border: 2px solid black;
+  height: fit-content;
+  padding: 5px;
+}
+.homeimg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-top: 20px;
+  border-radius: 100px;
+  background-color: aqua;
+  border-image: fill;
+}
+/*  */
+/* Sidebar */
+.sidebar tr{
+  border: 1px solid;
+  height: 45px;
+  width: 100%;
+}
+.sidebar {
+  text-align: center;
+  font-size:17px;
+  width: 100%;
+  font-weight: bold;
+
+  /* background-color: #106cb2; */
+}
+.sidebar_title {
+  color: #106cb2;
+  font-weight: bold;
+  background-color:white
+}
+a {
+  color: black;
+  display: block;
+  text-decoration: none;
+  cursor: pointer;
+}
+.sidebar tr:hover {
+  background-color: #106cb2;
+  color: white;
+}
+td:hover {
+  border: 1px solid black;
+  border-radius: 20px;
+  background-color: #106cb2;
+  color: white;
+  }
+a:hover {
+      color: white;
+  }
+  .search-button img:hover{
+  border-radius: 100px;
+  background-color: aqua;}
